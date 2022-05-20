@@ -1,0 +1,93 @@
+GIT Homework 2
+
+Все шаги сценария выполняйте в терминале GitBush, Terminal, в папке под гитом.
+
+Как отправить ДЗ на проверку.
+ 1. Создайте текстоовый файл как в первом ДЗ по Terminal.
+ 2. Сценарий перенесите в этот файл.
+ 3. На против каждого действия - напишите команду в GitBash
+
+Файл со сценарием и ссылку на свой гит хаб отправляйте менторам на проверку.
+
+JSON
+4. Создать внешний репозиторий c названием JSON.cd
+github.com -> New -> имя JSON; 'v'-public; 'v' -Add a README file -> Create repository -> Code -> HTTPS/SSH -> copy 
+ 5. Клонировать репозиторий JSON на локальный компьютер.
+git clone git@github.com:Alex7mur/JSON.git
+ 6. Внутри локального JSON создать файл “new.json”.
+cd json
+vim new.json -> esc -> :wq
+ 7. Добавить файл под гит.
+git add new.json
+ 8. Закоммитить файл.
+git commit -m "add new.json"
+ 9. Отправить файл на внешний GitHub репозиторий.
+git push
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+vim new.json -> заполнение -> esc -> :wq
+ 11. Отправить изменения на внешний репозиторий.
+git commit -am "filling new.json"
+git push
+ 12. Создать файл preferences.json
+vim preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+vim preferences.json -> write -> esc -> :wq
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+vim sklls.json -> заполнение -> esc -> :wqadd
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+git add .
+git commit -m "add preferences.json + sklls.json"
+git push
+ 16. На веб интерфейсе создать файл bug_report.json.
+https://github.com/Alex7mur/JSON -> add file -> Create new file -> bug_report.json
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+commin new file
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+выбрать файл -> Edit this file -> заполнение 
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+-> commit changes
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+git pull
+
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+github.com -> New -> имя XML; 'v'-public; 'v' -Add a README file -> Create repository -> Code -> HTTPS/SSH -> copy
+ 22. Клонировать репозиторий XML на локальный компьютер.
+git clone git@github.com:Alex7mur/XML.git
+ 23. Внутри локального XML создать файл “new.xml”.
+cd xml
+vim new.xml -> esc -> :wq
+ 24. Добавить файл под гит.
+git add .
+ 25. Закоммитить файл.
+git commit -m "add new.xml"
+ 26. Отправить файл на внешний GitHub репозиторий.
+git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+vim new.xml -> заполняем -> esc -> :wq
+ 28. Отправить изменения на внешний репозиторий.
+git commit -am "filling new.xml"
+git push
+ 29. Создать файл preferences.xml
+vim preferences.xml -> esc -> :wq
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+vim preferences.xml -> заполняем -> esc -> :wq
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+vim skills.xml -> заполняем -> esc -> :wq
+ 32. Сделать коммит в одну строку. (невозможно т.к. файлы новые и нельзя их закоммитить одной строкой)
+git add .
+git commit -m "add preferences.xml + sklls.xml"
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+git push
+ 34. На веб интерфейсе создать файл bug_report.xml.
+выбрать файл -> Edit this file -> заполнение
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+commin new file
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+выбрать файл -> Edit this file -> заполнение
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+-> commit changes
+ 38. Синхронизировать внешний и локальный репозиторий XML
+git pull
